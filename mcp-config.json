@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "mcp-oauth-keycloak": {
+      "url": "http://localhost:3001/mcp",
+      "transport": "streamable-http",
+      "auth": {
+        "type": "oauth2",
+        "authorizationUrl": "http://localhost:8080/realms/mcp-demo/protocol/openid-connect/auth",
+        "tokenUrl": "http://localhost:8080/realms/mcp-demo/protocol/openid-connect/token",
+        "clientId": "mcp-client",
+        "scopes": ["openid", "profile", "email"],
+        "pkce": true
+      }
+    }
+  }
+}

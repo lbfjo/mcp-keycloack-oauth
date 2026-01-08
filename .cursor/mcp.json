@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mcp-oauth-keycloak": {
+      "url": "http://localhost:3001/mcp",
+      "transport": "sse"
+    }
+  }
+}
